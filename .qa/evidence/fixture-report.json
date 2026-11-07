@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-06T13:19:22.103Z",
+  "browser": "145.0.7632.6",
+  "evidence": [
+    {
+      "name": "no-site-tab-guidance"
+    },
+    {
+      "name": "page-add"
+    },
+    {
+      "name": "uid-preview-add-three"
+    },
+    {
+      "name": "notes-groups-pin-persistence-page-mark"
+    },
+    {
+      "900001": 2,
+      "900002": 2,
+      "900003": 2,
+      "name": "real-extension-topic-reply-refresh"
+    },
+    {
+      "name": "filters-narrow-dark-layout"
+    },
+    {
+      "name": "backup-export-import-conflict-default"
+    },
+    {
+      "name": "partial-error-retains-topic"
+    },
+    {
+      "name": "pagination-deduplicated"
+    },
+    {
+      "name": "cancel-retains-cache"
+    },
+    {
+      "name": "429-cooldown-prevents-repeat"
+    },
+    {
+      "name": "remove-and-restore"
+    },
+    {
+      "name": "no-ui-runtime-errors"
+    },
+    {
+      "name": "browser-restart-persistence"
+    }
+  ],
+  "errors": []
+}

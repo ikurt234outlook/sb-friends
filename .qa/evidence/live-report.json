@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-06T10:00:50.022Z",
+  "browser": "145.0.7632.6",
+  "evidence": [
+    {
+      "name": "no-site-tab-guidance"
+    },
+    {
+      "name": "page-add"
+    },
+    {
+      "name": "uid-preview-add-three"
+    },
+    {
+      "name": "notes-groups-pin-persistence-page-mark"
+    },
+    {
+      "1": 100,
+      "21415": 68,
+      "31718": 66,
+      "name": "real-extension-topic-reply-refresh"
+    },
+    {
+      "name": "filters-narrow-dark-layout"
+    },
+    {
+      "name": "backup-export-import-conflict-default"
+    },
+    {
+      "name": "topic-detail-marker-and-time-text",
+      "listTime": "1小时前",
+      "detailTime": "1小时前",
+      "exactTimestampVerified": false
+    },
+    {
+      "name": "no-ui-runtime-errors"
+    },
+    {
+      "name": "browser-restart-persistence"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,18 @@
+node_modules/
+dist/
+packages/
+.qa/*
+!.qa/evidence/
+.qa/evidence/*
+!.qa/evidence/*-report.json
+!.qa/evidence/0.1.1-*.json
+!.qa/evidence/*.png
+reference-linuxdo-friends/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

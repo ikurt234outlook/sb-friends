@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "source": "local reproduction using observed site DOM and button CSS",
+  "markers": [
+    {
+      "text": "饼友",
+      "previous": "云杉",
+      "href": "/user/900001",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "padding": "0px"
+    },
+    {
+      "text": "饼友",
+      "previous": "云杉",
+      "href": "/user/900001",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "padding": "0px"
+    },
+    {
+      "text": "饼友",
+      "previous": "云杉",
+      "href": "/user/900001",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "padding": "0px"
+    },
+    {
+      "text": "饼友",
+      "previous": "云杉",
+      "href": "/user/900001",
+      "background": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "padding": "0px"
+    }
+  ],
+  "report": [
+    {
+      "label": "before-add",
+      "dimensions": {
+        "friend": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        },
+        "message": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        },
+        "block": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "label": "after-add",
+      "dimensions": {
+        "friend": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        },
+        "message": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        },
+        "block": {
+          "width": 220,
+          "height": 37,
+          "x": 926,
+          "fontSize": "14px"
+        }
+      }
+    },
+    {
+      "label": "resized",
+      "dimensions": {
+        "friend": {
+          "width": 190,
+          "height": 37,
+          "x": 524,
+          "fontSize": "14px"
+        },
+        "message": {
+          "width": 190,
+          "height": 37,
+          "x": 524,
+          "fontSize": "14px"
+        },
+        "block": {
+          "width": 190,
+          "height": 37,
+          "x": 524,
+          "fontSize": "14px"
+        }
+      }
+    }
+  ]
+}
