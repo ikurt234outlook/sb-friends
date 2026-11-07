@@ -33,7 +33,19 @@
 
 名单和备注保存在当前浏览器配置的扩展本地存储中。加入饼友不会改变原站关注关系，对方也不需要安装扩展。
 
-## 安装：先构建，再加载扩展
+## 安装：下载扩展包
+
+需要 Chrome / Edge 120 或更高版本，无需安装 Node.js。
+
+1. [下载 v0.1.1 扩展包](https://github.com/ikurt234outlook/sb-friends/releases/download/v0.1.1/sb-friends-0.1.1-chrome-edge.zip)，解压到一个固定文件夹。
+2. Chrome 打开 `chrome://extensions`，或 Edge 打开 `edge://extensions`，开启「开发者模式」。
+3. 点击「加载已解压的扩展程序」，选择解压后直接包含 `manifest.json` 的文件夹。
+4. 打开或刷新 [烧饼站](https://linux.sb/)，进入用户主页，点击「＋ 加入饼友」。
+5. 点击浏览器工具栏的「饼友」图标打开侧栏，再点击「刷新」。刷新时保留至少一个烧饼站标签页。
+
+版本说明和附件见 [GitHub Releases](https://github.com/ikurt234outlook/sb-friends/releases)。请选择 `sb-friends-0.1.1-chrome-edge.zip`，而非 GitHub 自动生成的 Source code 源码包。
+
+### 从源码构建
 
 需要 **Node.js 22 或更高版本**、npm，以及 Chrome / Edge 120 或更高版本。
 
@@ -62,7 +74,7 @@ npm run package
 
 ### 更新已安装的扩展
 
-建议先在扩展设置中导出名单备份，然后在原源码目录运行：
+建议先在扩展设置中导出名单备份。下载安装包的用户，将新版本解压并覆盖到原安装文件夹；从源码安装的用户，在原源码目录运行：
 
 ```sh
 git pull --ff-only
